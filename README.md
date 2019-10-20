@@ -1,5 +1,5 @@
 # helloPackManage
-A lite tool for managing npm packages, if you got some npm packages in a project, you manage it with lerna, or other tools, you want to modify one of the packages' name, or version, you maybe find other packages' dependencies not modified(like me, maybe that's bacause I use lerna in a wrong way). hello-pack-manage dose this. Don't forget to use it in a git folder, so that after run it, you can check which files and which parts was modified. It may have some bus now(😂).
+A lite tool for managing npm packages, if you got some npm packages in a project, you manage it with lerna, or other tools, you want to modify one of the packages' name, or version, you maybe find other packages' dependencies not modified(like me, maybe that's bacause I use lerna in a wrong way). hello-pack-manage dose this. Don't forget to use it in a git folder, so that after run it, you can check which files and which parts was modified. It may have some bugs now(😂).
 
 ## usage
 1.install

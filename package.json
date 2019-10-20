@@ -1,0 +1,26 @@
+{
+  "name": "hello-pack-manage",
+  "version": "0.0.1",
+  "description": "A lite tool for managing npm packages",
+  "main": "index.js",
+  "bin": {
+    "hpm": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vzhufeng/helloPackManage.git"
+  },
+  "keywords": [
+    "npm packages manage",
+    "modify package.json and dependencies"
+  ],
+  "author": "vzhufeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vzhufeng/helloPackManage/issues"
+  },
+  "homepage": "https://github.com/vzhufeng/helloPackManage#readme",
+  "dependencies": {
+    "commander": "^3.0.2"
+  }
+}

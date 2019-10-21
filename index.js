@@ -22,7 +22,7 @@ let config = {
   // 默认的修改目录
   pckDir: ["packages"],
   pckjsonKey: ["dependencies", "devDependencies", "peerDependencies"],
-  regex: [/require\([\'\"](.+?)[\'\"]\)/, /import.+from.+[\'\"](.+?)[\'\"]/]
+  regex: [/require\([\'\"](.+?)[\'\"]\)/, /import.+?from.+?[\'\"](.+?)[\'\"]/]
 };
 if (program.configFile) {
   const chunk = fs.readFileSync(path.resolve(cwd, program.configFile), {

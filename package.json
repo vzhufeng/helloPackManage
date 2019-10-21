@@ -1,6 +1,6 @@
 {
   "name": "hello-pack-manage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A lite tool for managing npm packages",
   "main": "index.js",
   "bin": {
